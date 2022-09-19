@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+.side-bar{
+    width: 330px;
+    height: 1000PX;
+    background-color: #242527;
+    display: flex;
+}
+
+.side-bar img{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+}
+
+
+.side-bar p{
+    position: relative;
+    width: 500px;
+    line-height: 30px;
+    top: 40px;
+}
+
+.text-sidebar{
+    color: #ffffff;
+}
+
+.text-sidebar p:first-child{
+    font-size: 20px;
+}
+
+.text-sidebar p:last-child{
+    font-size: 14px;
+    font-weight: 100;
+
+}
+
+.link-list{
+    position: absolute;
+    top: 130px;
+    /* margin-left: 5%; */
+    font-size: 15px;
+    line-height: 80px;
+
+}
+.link-list a{
+    text-decoration: none;
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+}
+
+.link-list ul a {
+    width: 100%;
+    padding-left: 70px;
+    box-sizing: border-box;
+}
+
+.link-list li:hover{
+    background-color: #343131;
+    width: 330px;
+}
+
+.data{
+    position: absolute;
+    top: 33%;
+    left: 30%;
+}
+
+input{
+    width: 355px;
+    height: 25px;
+    border-radius: 7px;
+
+}
+.data label{
+    font-size: 12px;
+}
+.hero{
+    position: absolute;
+    left: 30%;
+    top: 10%;
+}
+
+.garis{
+    width: 390px;
+    margin-bottom: 15px;
+    height: 5px;
+    border-bottom: 2px solid black;
+}
+
+.btn-tambah{
+    border: 1px solid #2f3640;
+    width: 150px;
+    height: 40px;
+    font-size: 11px;
+    border-radius: 10px;
+    background-color: #3A3B3D;
+    color: #ffffff;
+}
+
+.btn-tambah a{
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.thead{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+}
+
+table tr td a{
+    text-decoration: none;
+    color: #242527;
+}
+
+table tr td a:hover{
+    text-decoration: underline;
+    color: #737c90;
+}
